@@ -1,0 +1,4 @@
+# Added for Frappe Cloud, which reads the supported Frappe version from here.
+# The app itself is still built and installed from setup.py.
+[tool.bench.frappe-dependencies]
+frappe = ">=15.0.0,<16.0.0"
